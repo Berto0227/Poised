@@ -1,0 +1,4 @@
+[P001, Hola,    Flat,    29 Avenue]
+[P002, Andre Berto,  House,  71 Street]
+[P003, Andre, Complex, 57 Avenue]
+[P005,  Andre,  House,  57,  Z889,  31/10/2020,  25000,  10000, Pose, siesi, kies, mama,  Zara,  0798837311,  zaraswanepoel@gmail.com,  29,  Andre,  0794883956,  andreswanepoel@gmail.com,  52,  No]
