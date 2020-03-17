@@ -1,4 +1,3 @@
-
 //Programmer: Berto Swanepoel
 //This program is to show my mentor what i have read and learned for the reading material.
 
@@ -9,17 +8,13 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.List;
-
 public class WriteFile {
-    private String fileName = "poised.txt";
+    private String fileName;
 
     WriteFile(String outFile) {
         fileName = outFile;
     }
+
     //File writer class and method. Data that has been edited and has been replaced will now be written back to the file.
     public void writeStringListFile(List<String> content) {
 

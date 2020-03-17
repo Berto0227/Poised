@@ -1,4 +1,3 @@
-
 //Programmer: Berto Swanepoel
 //This program is to show my mentor what i have read and learned for the reading material.
 
@@ -12,20 +11,19 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ReadFile {
-    private String fileName = "poised.txt";
-    List<String> inputFileContent = new ArrayList<>();
+    final List<String> inputFileContent = new ArrayList<>();
     List<String> mainProject = null;// = new ArrayList<>();
     int foundProjectIndex = -1;
+    private String fileName;
 
     ReadFile(String inFile) {
         fileName = inFile;
     }
+
     //This is the file reading class and method. The file is opened and every line is read and the placed in an array for
     //data manipulation. First we remove the brackets and the spit each word at the ','. At some stage the program uses
     // a user's input as a find in line that needs to be updated.
     public void fileReadContent() throws IOException {
-        //String fileName = "poised.txt";
-        //List<String> mainProject = new ArrayList<>();
         FileReader fr = new FileReader(fileName);       //Read file.
         BufferedReader br = new BufferedReader(fr);
         String line;

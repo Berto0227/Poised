@@ -1,4 +1,3 @@
-[P001, Hola,    Flat,    29 Avenue]
-[P002, Andre Berto,  House,  71 Street]
-[P003, Andre, Complex, 57 Avenue]
-[P005,  Andre,  House,  57,  Z889,  31/10/2020,  25000,  10000, Pose, siesi, kies, mama,  Zara,  0798837311,  zaraswanepoel@gmail.com,  29,  Andre,  0794883956,  andreswanepoel@gmail.com,  52,  No]
+[P001,  House Upgrade,  House,  29 enth Avenue Villas,  Z559,  15/02/2020,  25000,  10000, Changed, Changed, Changed, Changed,  Luhan Rolfe,  0123456789,  lrolfe@gmail.com,  57 8th Avenue,  Berto Swanepoel,  1598753206,  swanepoel@gmail.com,  71 Tenth Avenue Villas,  NO]
+[P002, Garage addon, Garage, 57 Tom Jones Steet, Q887, 31/05/2020, 15000, 7500, Piet Pompies, 0123456789, pietskiet@yahoo.com, 12 7th Street, Jan Blom, 9876543210, blommie@gmail.com, 36 Frank road, Sannie Kannie, 7539516842, sanniekan@gmail.com, 89 Blombosch, NO]
+[P003, Kitchen Upgrade, House, 58 Jonker Street, B5896, 31/10/2020, 25000, 15000, Japie Jacobs, 0123456789, japie@isasa.com, 56 Sannie Street, Kalie Sanders, 9876543210, kalie@sanders.co.za, 90 North Road, Emily Brand, 1598746310, emily.brand@gmail.com, 67 Old Oak Road, NO]
