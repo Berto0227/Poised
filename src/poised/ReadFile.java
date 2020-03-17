@@ -44,6 +44,7 @@ public class ReadFile {
                 String[] temp = inputLine.split(",");    //Split info at the ',' and place in temp array.
                 mainProject = Arrays.asList(temp);      //Place temp array into a list.
             }
+            lineIndex +=1;
         }
     }
 

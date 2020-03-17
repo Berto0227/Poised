@@ -16,7 +16,7 @@ public class UpdateProject {
     static final WriteFile projectWriter = new WriteFile(projectFile);
     //Static variable for program use.
     static String projectChosen;
-    //static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
     //Update any project class and methods. If the user wants to update any of the existing projects it will be done here.
     //Again the user get a display to choose from the following.
 
@@ -55,7 +55,7 @@ public class UpdateProject {
 
     public static void architect() throws IOException, ParseException {
         //Ask the user, which project do they wish to update.
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Please enter the Project Number of the project that you wish to update: ");
         projectChosen = sc.nextLine();
         projectReader.fileReadContent();
@@ -90,7 +90,7 @@ public class UpdateProject {
 
     public static void contractors() throws IOException, ParseException {
         //Ask the user, which project do they wish to update.
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Please enter the Project Number of the project that you wish to update: ");
         projectChosen = sc.nextLine();    //Get user input.
         projectReader.fileReadContent();
@@ -124,11 +124,12 @@ public class UpdateProject {
 
     public static void dateDue() throws IOException, ParseException {
         //Ask the user, which project do they wish to update.
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Please enter the Project Number of the project that you wish to update: ");
         projectChosen = sc.nextLine();
         projectReader.fileReadContent();
         List<String> inputFileContent = projectReader.getFileContent();
+        projectReader.findProjectFieldsOnProject(projectChosen);
         List<String> mainProject = projectReader.getProjectRecord();
         System.out.println("Please enter the new Due Date:");
         String due_date = sc.nextLine();
@@ -142,16 +143,17 @@ public class UpdateProject {
 
     public static void amountPaid() throws IOException, ParseException {
         //Ask the user, which project do they wish to update.
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Please enter the Project Number of the project that you wish to update: ");
         projectChosen = sc.nextLine();    //Get user input.
         projectReader.fileReadContent();
         List<String> inputFileContent = projectReader.getFileContent();
+        projectReader.findProjectFieldsOnProject(projectChosen);
         List<String> mainProject = projectReader.getProjectRecord();
         System.out.println("Please enter the total amount of the fee paid to date:");
         String amount_paid = sc.nextLine();
 
-        mainProject.set(6, amount_paid);
+        mainProject.set(7, amount_paid);
         if (projectReader.getFoundProjectIndex() >= 0) {
             inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
         }
@@ -161,11 +163,12 @@ public class UpdateProject {
 
     public static void projectFinalize() throws IOException, ParseException {
         //Ask the user, which project do they wish to update.
-        Scanner sc = new Scanner(System.in);
+        sc = new Scanner(System.in);
         System.out.println("Please enter the Project Number of the project that you wish to update: ");
-        projectChosen = sc.nextLine();    //Get user input.
+        String projectChosen = sc.nextLine();    //Get user input.
         projectReader.fileReadContent();
         List<String> inputFileContent = projectReader.getFileContent();
+        projectReader.findProjectFieldsOnProject(projectChosen);
         List<String> mainProject = projectReader.getProjectRecord();
         System.out.println("Do you wish to mark this project as FINISHED?(YES or NO):");
         String finished = sc.nextLine();
