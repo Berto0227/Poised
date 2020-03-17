@@ -28,7 +28,7 @@ public class MainMenu {
 		}
 		else if (userChoice == 3) {
 
-			//project Info					//This will allow the user to display a project or display all projects.
+			ProjectInfo.ViewInfo();					//This will allow the user to display a project or display all projects.
 
 		}
 		else if (userChoice == 4){

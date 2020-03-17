@@ -9,10 +9,19 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
+
 public class WriteFile {
+    private String fileName = "poised.txt";
+
+    WriteFile(String outFile) {
+        fileName = outFile;
+    }
     //File writer class and method. Data that has been edited and has been replaced will now be written back to the file.
-    public static void writeStringListFile(List<String> content) {
-        String fileName = "poised.txt";
+    public void writeStringListFile(List<String> content) {
 
         try {       //Using try/catch we check if the file is available.
             FileWriter fw = new FileWriter(fileName);   //Open file for writing.
@@ -21,8 +30,8 @@ public class WriteFile {
                 fileWriter.write(item + "\n"); // \n is newline character is needed for separating the text lines
             }
             fileWriter.close();     //Close file writer.
-        }
-        catch (IOException ie) {    //Catch error if need be.
+
+        } catch (IOException ie) {    //Catch error if need be.
             ie.printStackTrace();
         }
     }
