@@ -25,7 +25,7 @@ public class WriteFile {
                 fileWriter.write(item + "\n"); // \n is newline character is needed for separating the text lines
             }
             fileWriter.close();     //Close file writer.
-
+            fw.close();
         } catch (IOException ie) {    //Catch error if need be.
             ie.printStackTrace();
         }

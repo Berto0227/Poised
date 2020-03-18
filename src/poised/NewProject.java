@@ -3,6 +3,7 @@
 
 package poised;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -10,10 +11,7 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
-import static poised.UpdateProject.projectWriter;
-
 public class NewProject {
-
     //Create a new project class and method. The user is asked a set of questions. The data given by the user is then
     //stored to a variable and saved into and array and written to a file.
     public static void Register() throws IOException, ParseException {
@@ -108,8 +106,16 @@ public class NewProject {
         String complete = "NO";
         mainProject[20] = complete;
 
-        projectWriter.writeStringListFile(Arrays.asList(mainProject),true);
+        try        //Using a try/catch we first see if such a file is there. If not the catch will display an error.
+        {
+            FileWriter fw = new FileWriter("poised.txt", true);
 
+            fw.write(Arrays.toString(mainProject));
+            fw.write("\n");
+            fw.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         MainMenu.startMenu();
     }
 }
