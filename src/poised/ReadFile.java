@@ -24,13 +24,19 @@ public class ReadFile {
     //data manipulation. First we remove the brackets and the spit each word at the ','. At some stage the program uses
     // a user's input as a find in line that needs to be updated.
     public void fileReadContent() throws IOException {
-        FileReader fr = new FileReader(fileName);       //Read file.
-        BufferedReader br = new BufferedReader(fr);
-        String line;
-        while ((line = br.readLine()) != null) {        //Read lines.
-            inputFileContent.add(line);
+        try {
+            FileReader fr = new FileReader(fileName);       //Read file.
+            BufferedReader br = new BufferedReader(fr);
+            String line;
+            while ((line = br.readLine()) != null) {        //Read lines.
+                inputFileContent.add(line);
+            }
+            fr.close();     //Close file reader.
+
+        } catch (IOException ie) {    //Catch error if need be.
+            ie.printStackTrace();
+
         }
-        fr.close();     //Close file reader.
     }
 
     public void findProjectFieldsOnProject(String findProject) {

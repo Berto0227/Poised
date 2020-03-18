@@ -83,7 +83,7 @@ public class UpdateProject {
             if (projectReader.getFoundProjectIndex() >= 0) {
                 inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
             }
-            projectWriter.writeStringListFile(inputFileContent);    //Call the file write method and execute.
+            projectWriter.writeStringListFile(inputFileContent, false);    //Call the file write method and execute.
         }
         updateMenu();    //Return back to previous menu.
     }
@@ -117,7 +117,7 @@ public class UpdateProject {
             if (projectReader.getFoundProjectIndex() >= 0) {
                 inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
             }
-            projectWriter.writeStringListFile(inputFileContent);    //Call the file write method and execute.
+            projectWriter.writeStringListFile(inputFileContent,false);    //Call the file write method and execute.
         }
         updateMenu();    //Return back to previous menu.
     }
@@ -137,7 +137,7 @@ public class UpdateProject {
         if (projectReader.getFoundProjectIndex() >= 0) {
             inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
         }
-        projectWriter.writeStringListFile(inputFileContent);    //Call the file write method and execute.
+        projectWriter.writeStringListFile(inputFileContent,false);    //Call the file write method and execute.
         updateMenu();    //Return back to previous menu.
     }
 
@@ -157,8 +157,9 @@ public class UpdateProject {
         if (projectReader.getFoundProjectIndex() >= 0) {
             inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
         }
-        projectWriter.writeStringListFile(inputFileContent);
+        projectWriter.writeStringListFile(inputFileContent,false);
         updateMenu();    //Return back to previous menu.
+        
     }
 
     public static void projectFinalize() throws IOException, ParseException {
@@ -177,7 +178,7 @@ public class UpdateProject {
         if (projectReader.getFoundProjectIndex() >= 0) {
             inputFileContent.set(projectReader.getFoundProjectIndex(), mainProject.toString());
         }
-        projectWriter.writeStringListFile(inputFileContent);    //Call the file write method and execute.
+        projectWriter.writeStringListFile(inputFileContent,false);    //Call the file write method and execute.
         updateMenu();    //Return back to previous menu.
     }
 }
