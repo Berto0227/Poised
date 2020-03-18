@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_5cjWUGkMEeq5m5AkIydMjQ" name="Poised1">
+    <eAnnotations xmi:id="_7omXIGkMEeq5m5AkIydMjQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_7omXIWkMEeq5m5AkIydMjQ" source="codegen">
+        <details xmi:id="_7omXImkMEeq5m5AkIydMjQ" key="codegenDirectory" value="/Poised1/src"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_7npU4GkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_7np78GkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_7np78WkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_7np78mkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_7np782kMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_7np79GkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_7np79WkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_7nqjAGkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_7nrKEGkMEeq5m5AkIydMjQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7n5MgGkMEeq5m5AkIydMjQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_7n5MgWkMEeq5m5AkIydMjQ" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qM5oGkMEeq5m5AkIydMjQ" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qRyIGkMEeq5m5AkIydMjQ" name="FileWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qXRsGkMEeq5m5AkIydMjQ" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qYf0WkMEeq5m5AkIydMjQ" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qsB0GkMEeq5m5AkIydMjQ" name="BufferedWriter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7n5zkGkMEeq5m5AkIydMjQ" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qOu0GkMEeq5m5AkIydMjQ" name="ParseException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qTAQGkMEeq5m5AkIydMjQ" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7n5zkWkMEeq5m5AkIydMjQ" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qPV4WkMEeq5m5AkIydMjQ" name="Scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qUOYWkMEeq5m5AkIydMjQ" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qU1cWkMEeq5m5AkIydMjQ" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qcKMGkMEeq5m5AkIydMjQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7qdYUGkMEeq5m5AkIydMjQ" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7n9d8GkMEeq5m5AkIydMjQ" name="poised">
+      <packagedElement xmi:type="uml:Class" xmi:id="_7odNMGkMEeq5m5AkIydMjQ" name="MainMenu">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rLxEGkMEeq5m5AkIydMjQ" name="startMenu" specification="_7ooMUGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Welcome to Poised Project Management.&quot;);&#xD;
+     System.out.println(&quot;Please choose one of the following:\n1) New Project\n2) Update Project\n3) Project Information\n4) Exit \n&quot;);&#xD;
+     Scanner sc = new Scanner(System.in);&#xD;
+     int userChoice = sc.nextInt();&#xD;
+     if (userChoice == 1) {&#xD;
+&#xD;
+         NewProject.Register();        //This will ask you to register a new project.&#xD;
+&#xD;
+     } else if (userChoice == 2) {&#xD;
+&#xD;
+         UpdateProject.updateMenu();        //This will allow you to to update any of the information on an existing project.&#xD;
+&#xD;
+     } else if (userChoice == 3) {&#xD;
+&#xD;
+         ProjectInfo.ViewInfo();                    //This will allow the user to display a project or display all projects.&#xD;
+&#xD;
+     } else if (userChoice == 4) {&#xD;
+&#xD;
+         System.exit(0);            //Exit the program&#xD;
+     } else {&#xD;
+&#xD;
+         System.out.println(&quot;You have not selected the correct option.\n&quot;);&#xD;
+         //If user has made an incorrect selection the program will prompt that and restart the program.&#xD;
+         startMenu();&#xD;
+&#xD;
+     }&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rO0YGkMEeq5m5AkIydMjQ" name="main" specification="_7orPoGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rO0YWkMEeq5m5AkIydMjQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rO0YmkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>MainMenu.startMenu();&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7ooMUGkMEeq5m5AkIydMjQ" name="startMenu" isStatic="true" method="_7rLxEGkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7orPoGkMEeq5m5AkIydMjQ" name="main" isStatic="true" method="_7rO0YGkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7orPoWkMEeq5m5AkIydMjQ" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7or2sGkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7ou6AGkMEeq5m5AkIydMjQ" name="NewProject">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rPbcGkMEeq5m5AkIydMjQ" name="Register" specification="_7ovhEGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>Scanner sc = new Scanner(System.in);&#xD;
+&#xD;
+     //The program asks the user a set of questions as seen below.&#xD;
+     String[] mainProject = new String[21];        //Create an array.&#xD;
+     System.out.println(&quot;Please enter the Project Number:&quot;);&#xD;
+     String project_num = sc.nextLine();&#xD;
+     mainProject[0] = project_num;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the Project Name:&quot;);&#xD;
+     String project_name = sc.nextLine();&#xD;
+     mainProject[1] = project_name;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the Building Type:&quot;);&#xD;
+     String build_type = sc.nextLine();&#xD;
+     mainProject[2] = build_type;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the Project's Address:&quot;);&#xD;
+     String address = sc.nextLine();&#xD;
+     mainProject[3] = address;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the Project's ERF Number:&quot;);&#xD;
+     String erf_num = sc.nextLine();&#xD;
+     mainProject[4] = erf_num;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the due date for this project(dd/mm/yyyy):&quot;);&#xD;
+     Date date = new Date();&#xD;
+     SimpleDateFormat formatter = new SimpleDateFormat(&quot;dd/MM/yyyy&quot;);&#xD;
+     String strDate = formatter.format(date);&#xD;
+     String due_date = sc.nextLine();&#xD;
+     mainProject[5] = due_date;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the total price for this Project:&quot;);&#xD;
+     String tot_fee = sc.nextLine();&#xD;
+     mainProject[6] = tot_fee;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the deposit amount:&quot;);&#xD;
+     String tot_paid = sc.nextLine();&#xD;
+     mainProject[7] = tot_paid;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the name of the architect:&quot;);&#xD;
+     String arch_name = sc.nextLine();&#xD;
+     mainProject[8] = arch_name;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the telephone number of the architect:&quot;);&#xD;
+     String arch_tel = sc.nextLine();&#xD;
+     mainProject[9] = arch_tel;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the email of the architect:&quot;);&#xD;
+     String arch_email = sc.nextLine();&#xD;
+     mainProject[10] = arch_email;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the address of the architect:&quot;);&#xD;
+     String arch_address = sc.nextLine();&#xD;
+     mainProject[11] = arch_address;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the name of the contractor:&quot;);&#xD;
+     String cont_name = sc.nextLine();&#xD;
+     mainProject[12] = cont_name;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the telephone number of the contractor:&quot;);&#xD;
+     String cont_tel = sc.nextLine();&#xD;
+     mainProject[13] = cont_tel;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the email of the contractor:&quot;);&#xD;
+     String cont_email = sc.nextLine();&#xD;
+     mainProject[14] = cont_email;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the address of the contractor:&quot;);&#xD;
+     String cont_address = sc.nextLine();&#xD;
+     mainProject[15] = cont_address;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the name of the customer:&quot;);&#xD;
+     String cust_name = sc.nextLine();&#xD;
+     mainProject[16] = cust_name;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the telephone number of the customer:&quot;);&#xD;
+     String cust_tel = sc.nextLine();&#xD;
+     mainProject[17] = cust_tel;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the email of the customer:&quot;);&#xD;
+     String cust_email = sc.nextLine();&#xD;
+     mainProject[18] = cust_email;&#xD;
+&#xD;
+     System.out.println(&quot;Please enter the address of the customer:&quot;);&#xD;
+     String cust_address = sc.nextLine();&#xD;
+     mainProject[19] = cust_address;&#xD;
+&#xD;
+     String complete = &quot;NO&quot;;&#xD;
+     mainProject[20] = complete;&#xD;
+&#xD;
+     try        //Using a try/catch we first see if such a file is there. If not the catch will display an error.&#xD;
+     {&#xD;
+         FileWriter fw = new FileWriter(&quot;poised.txt&quot;, true);&#xD;
+&#xD;
+         fw.write(Arrays.toString(mainProject));&#xD;
+         fw.write(&quot;\n&quot;);&#xD;
+         fw.close();&#xD;
+     } catch (Exception e) {&#xD;
+         e.printStackTrace();&#xD;
+     }&#xD;
+     MainMenu.startMenu();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7ovhEGkMEeq5m5AkIydMjQ" name="Register" isStatic="true" method="_7rPbcGkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7oykYGkMEeq5m5AkIydMjQ" name="ProjectInfo">
+        <ownedAttribute xmi:id="_7q-VsGkMEeq5m5AkIydMjQ" name="mainProject" visibility="package" isStatic="true" isOrdered="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7q-8wGkMEeq5m5AkIydMjQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7q_j0GkMEeq5m5AkIydMjQ" name="projectDetails" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rPbcWkMEeq5m5AkIydMjQ" name="ViewInfo" specification="_7o0ZkGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Display the following screen and allow user to choose on of the following.&#xD;
+     System.out.println(&quot;Please choose one of the following:\n1) View a specific project\n2) View all Projects over due\n&quot;&#xD;
+             + &quot;3) View all Projects\n4) Return to START MENU&quot;);&#xD;
+     Scanner sc = new Scanner(System.in);&#xD;
+     int userChoice = sc.nextInt();&#xD;
+     //Based on user choice execute accordingly.&#xD;
+     switch (userChoice) {&#xD;
+         case 1:&#xD;
+             DisplayInfo();&#xD;
+             break;&#xD;
+&#xD;
+         case 2:&#xD;
+             OverDue();&#xD;
+             break;&#xD;
+&#xD;
+         case 3:&#xD;
+             DisplayAll();&#xD;
+             break;&#xD;
+&#xD;
+         case 4:&#xD;
+             MainMenu.startMenu();&#xD;
+             break;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rPbcmkMEeq5m5AkIydMjQ" name="DisplayInfo" specification="_7o1nsGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Display only the project that the user wishes to view.&#xD;
+     Scanner sc = new Scanner(System.in);&#xD;
+     System.out.println(&quot;Please enter the Project Number of the project that you wish to update: &quot;);&#xD;
+     projectChosen = sc.next();&#xD;
+     sc.nextLine();&#xD;
+     FileReader fr = new FileReader(&quot;poised.txt&quot;);       //Read file.&#xD;
+     BufferedReader br = new BufferedReader(fr);&#xD;
+     String line;&#xD;
+     while ((line = br.readLine()) != null)&#xD;
+         if (line.contains(projectChosen)) {&#xD;
+         line = line.replace(&quot;[&quot;, &quot; &quot;);      //Replace the bracket.&#xD;
+         line = line.replace(&quot;]&quot;, &quot; &quot;).strip();  //Replace the bracket and remove white space.&#xD;
+         String[] temp = line.split(&quot;,&quot;);    //Split info at the ',' and place in temp array.&#xD;
+         mainProject = Arrays.asList(temp);&#xD;
+         System.out.println(ScreenDisplay());&#xD;
+     }&#xD;
+     ViewInfo();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rPbc2kMEeq5m5AkIydMjQ" name="OverDue" specification="_7o3c4GkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Search the file and display all projects that are overdue.&#xD;
+     Calendar cal = Calendar.getInstance();&#xD;
+     Date today = cal.getTime();&#xD;
+     FileReader fr = new FileReader(&quot;poised.txt&quot;);       //Read file.&#xD;
+     BufferedReader br = new BufferedReader(fr);&#xD;
+     String line;&#xD;
+     while ((line = br.readLine()) != null) {        //Read lines.&#xD;
+         line = line.replace(&quot;[&quot;, &quot; &quot;);      //Replace the bracket.&#xD;
+         line = line.replace(&quot;]&quot;, &quot; &quot;).strip();  //Replace the bracket and remove white space.&#xD;
+         String[] temp = line.split(&quot;,&quot;);    //Split info at the ',' and place in temp array.&#xD;
+         mainProject = Arrays.asList(temp);&#xD;
+         String sDate1= mainProject.get(5);&#xD;
+         Date date1=new SimpleDateFormat(&quot;dd/MM/yyyy&quot;).parse(sDate1);&#xD;
+         if (date1.before(today)) {&#xD;
+             System.out.println(ScreenDisplay());&#xD;
+         }&#xD;
+     }&#xD;
+     ViewInfo();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQCgGkMEeq5m5AkIydMjQ" name="DisplayAll" specification="_7o4D8GkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Display all the tasks that are saved in the file.&#xD;
+     FileReader fr = new FileReader(&quot;poised.txt&quot;);       //Read file.&#xD;
+     BufferedReader br = new BufferedReader(fr);&#xD;
+     String line;&#xD;
+     while ((line = br.readLine()) != null) {        //Read lines.&#xD;
+         line = line.replace(&quot;[&quot;, &quot; &quot;);      //Replace the bracket.&#xD;
+         line = line.replace(&quot;]&quot;, &quot; &quot;).strip();  //Replace the bracket and remove white space.&#xD;
+         String[] temp = line.split(&quot;,&quot;);    //Split info at the ',' and place in temp array.&#xD;
+         mainProject = Arrays.asList(temp);&#xD;
+         System.out.println(ScreenDisplay());&#xD;
+     }&#xD;
+     ViewInfo();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQCgWkMEeq5m5AkIydMjQ" name="ScreenDisplay" specification="_7o5SEGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rQCgmkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>//Display all detail in a professional way.&#xD;
+     projectDetails = &quot;*** Detailed Information about Projects***&quot;;&#xD;
+     projectDetails += &quot;\nProject Number:\t\t\t\t\t  &quot; + mainProject.get(0);&#xD;
+     projectDetails += &quot;\nProject Name:\t\t\t\t\t &quot; + mainProject.get(1);&#xD;
+     projectDetails += &quot;\nProject Building Type:\t\t\t &quot; + mainProject.get(2);&#xD;
+     projectDetails += &quot;\nProject Address:\t\t\t\t &quot; + mainProject.get(3);&#xD;
+     projectDetails += &quot;\nProject ERF Number:\t\t\t\t &quot; + mainProject.get(4);&#xD;
+     projectDetails += &quot;\nCustomer's Name:\t\t\t\t &quot; + mainProject.get(16);&#xD;
+     projectDetails += &quot;\nCustomer's Telephone Number:\t &quot; + mainProject.get(17);&#xD;
+     projectDetails += &quot;\nCustomer's Email Address:\t\t &quot; + mainProject.get(18);&#xD;
+     projectDetails += &quot;\nCustomer's Address:\t\t\t\t &quot; + mainProject.get(19);&#xD;
+     projectDetails += &quot;\nArchitect's Name:\t\t\t\t &quot; + mainProject.get(8);&#xD;
+     projectDetails += &quot;\nArchitect's Telephone Number:\t &quot; + mainProject.get(9);&#xD;
+     projectDetails += &quot;\nArchitect's Email Address:\t\t &quot; + mainProject.get(10);&#xD;
+     projectDetails += &quot;\nArchitect's Address:\t\t\t &quot; + mainProject.get(11);&#xD;
+     projectDetails += &quot;\nContractor's Name:\t\t\t\t &quot; + mainProject.get(12);&#xD;
+     projectDetails += &quot;\nContractor's Telephone Number:\t &quot; + mainProject.get(13);&#xD;
+     projectDetails += &quot;\nContractor's Email Address:\t\t &quot; + mainProject.get(14);&#xD;
+     projectDetails += &quot;\nContractor's Address:\t\t\t &quot; + mainProject.get(15);&#xD;
+     projectDetails += &quot;\nProject Total Fee:\t\t\t\t &quot; + mainProject.get(6);&#xD;
+     projectDetails += &quot;\nProject Total Paid to date:\t\t &quot; + mainProject.get(7);&#xD;
+     projectDetails += &quot;\nProject Deadline:\t\t\t\t &quot; + mainProject.get(5);&#xD;
+     projectDetails += &quot;\nProject Finalised:\t\t\t\t &quot; + mainProject.get(20);&#xD;
+     projectDetails += &quot;\n&quot;;&#xD;
+&#xD;
+     return projectDetails;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7o0ZkGkMEeq5m5AkIydMjQ" name="ViewInfo" isStatic="true" method="_7rPbcWkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7o1nsGkMEeq5m5AkIydMjQ" name="DisplayInfo" isStatic="true" method="_7rPbcmkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7o3c4GkMEeq5m5AkIydMjQ" name="OverDue" isStatic="true" method="_7rPbc2kMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7o4D8GkMEeq5m5AkIydMjQ" name="DisplayAll" isStatic="true" method="_7rQCgGkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7o5SEGkMEeq5m5AkIydMjQ" name="ScreenDisplay" isStatic="true" method="_7rQCgWkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7o55IGkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pAm0GkMEeq5m5AkIydMjQ" name="ReadFile">
+        <ownedAttribute xmi:id="_7rAx8GkMEeq5m5AkIydMjQ" name="inputFileContent" visibility="package" isLeaf="true" isOrdered="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rBZAGkMEeq5m5AkIydMjQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rBZAWkMEeq5m5AkIydMjQ" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rCAEWkMEeq5m5AkIydMjQ" name="mainProject" visibility="package" isOrdered="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rCAEmkMEeq5m5AkIydMjQ" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rCnIGkMEeq5m5AkIydMjQ" value="null"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rCnImkMEeq5m5AkIydMjQ" name="foundProjectIndex" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rDOMGkMEeq5m5AkIydMjQ" value="-1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rD1QGkMEeq5m5AkIydMjQ" name="fileName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQCg2kMEeq5m5AkIydMjQ" name="ReadFile" specification="_7pB08GkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rQChGkMEeq5m5AkIydMjQ" name="inFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7rQChWkMEeq5m5AkIydMjQ" type="_7pAm0GkMEeq5m5AkIydMjQ" direction="return"/>
+          <language>java</language>
+          <body>fileName = inFile;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQpkGkMEeq5m5AkIydMjQ" name="fileReadContent" specification="_7pCcA2kMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>foundProjectIndex = -1;&#xD;
+     inputFileContent.clear();&#xD;
+     try {&#xD;
+         FileReader fr = new FileReader(fileName);       //Read file.&#xD;
+         BufferedReader br = new BufferedReader(fr);&#xD;
+         String line = &quot;&quot;;&#xD;
+         line = line.strip();&#xD;
+         while ((line = br.readLine()) != null) {        //Read lines.&#xD;
+             inputFileContent.add(line);&#xD;
+         }&#xD;
+         fr.close();     //Close file reader.&#xD;
+&#xD;
+     } catch (IOException ie) {    //Catch error if need be.&#xD;
+         ie.printStackTrace();&#xD;
+&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQpkWkMEeq5m5AkIydMjQ" name="findProjectFieldsOnProject" specification="_7pDDEGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rQpkmkMEeq5m5AkIydMjQ" name="findProject">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>mainProject = new ArrayList&lt;>();&#xD;
+     int lineIndex = 0;&#xD;
+     for (String inputLine : inputFileContent) {&#xD;
+         if (inputLine.contains(findProject)) {&#xD;
+             foundProjectIndex = lineIndex;&#xD;
+             inputLine = inputLine.replace(&quot;[&quot;, &quot; &quot;);      //Replace the bracket.&#xD;
+             inputLine = inputLine.replace(&quot;]&quot;, &quot; &quot;).strip();  //Replace the bracket and remove white space.&#xD;
+             String[] temp = inputLine.split(&quot;,&quot;);    //Split info at the ',' and place in temp array.&#xD;
+             mainProject = Arrays.asList(temp);      //Place temp array into a list.&#xD;
+         }&#xD;
+         lineIndex += 1;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rQpk2kMEeq5m5AkIydMjQ" name="sanitiseSplitRecord" specification="_7pDqIGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rRQoGkMEeq5m5AkIydMjQ" name="projectFields">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7rRQoWkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rRQomkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String inputLine = projectFields;&#xD;
+     inputLine = inputLine.replace(&quot;[&quot;, &quot; &quot;);      //Replace the bracket.&#xD;
+     inputLine = inputLine.replace(&quot;]&quot;, &quot; &quot;).strip();  //Replace the bracket and remove white space.&#xD;
+     return inputLine.split(&quot;,&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rRQo2kMEeq5m5AkIydMjQ" name="getFoundProjectIndex" specification="_7pGtcGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rRQpGkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return foundProjectIndex;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rRQpWkMEeq5m5AkIydMjQ" name="resetMatches" specification="_7pHUgGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>foundProjectIndex = -1;&#xD;
+     mainProject = null;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rRQpmkMEeq5m5AkIydMjQ" name="matchedRecordsCount" specification="_7pH7kGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rRQp2kMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (foundProjectIndex >= 0)&#xD;
+         return 1;&#xD;
+     else&#xD;
+         return inputFileContent.size();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rR3sGkMEeq5m5AkIydMjQ" name="getFileContent" specification="_7pIioGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rR3sWkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rR3smkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return inputFileContent;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rR3s2kMEeq5m5AkIydMjQ" name="getProjectRecord" specification="_7pJJsGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rR3tGkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rR3tWkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return mainProject;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rR3tmkMEeq5m5AkIydMjQ" name="getProjectRecordOnIndex" specification="_7pK-4GkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rR3t2kMEeq5m5AkIydMjQ" name="index">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7rR3uGkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7rR3uWkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if (mainProject != null)&#xD;
+         return mainProject;&#xD;
+     else {&#xD;
+         String inputRecord = inputFileContent.get(index);&#xD;
+         String[] inputRecordFields = sanitiseSplitRecord(inputRecord);&#xD;
+         return Arrays.asList(inputRecordFields);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7pB08GkMEeq5m5AkIydMjQ" name="ReadFile" visibility="package" method="_7rQCg2kMEeq5m5AkIydMjQ">
+          <eAnnotations xmi:id="_7pCcAGkMEeq5m5AkIydMjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7pCcAWkMEeq5m5AkIydMjQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7pB08WkMEeq5m5AkIydMjQ" name="inFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pCcAmkMEeq5m5AkIydMjQ" type="_7pAm0GkMEeq5m5AkIydMjQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pCcA2kMEeq5m5AkIydMjQ" name="fileReadContent" method="_7rQpkGkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pDDEGkMEeq5m5AkIydMjQ" name="findProjectFieldsOnProject" method="_7rQpkWkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pDDEWkMEeq5m5AkIydMjQ" name="findProject">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pDqIGkMEeq5m5AkIydMjQ" name="sanitiseSplitRecord" visibility="private" method="_7rQpk2kMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pDqIWkMEeq5m5AkIydMjQ" name="projectFields">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pDqImkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7pDqI2kMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pGtcGkMEeq5m5AkIydMjQ" name="getFoundProjectIndex" method="_7rRQo2kMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pGtcWkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pHUgGkMEeq5m5AkIydMjQ" name="resetMatches" method="_7rRQpWkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pH7kGkMEeq5m5AkIydMjQ" name="matchedRecordsCount" method="_7rRQpmkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pH7kWkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pIioGkMEeq5m5AkIydMjQ" name="getFileContent" method="_7rR3sGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pIioWkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7pIiomkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pJJsGkMEeq5m5AkIydMjQ" name="getProjectRecord" method="_7rR3s2kMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pJwwGkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7pKX0GkMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pK-4GkMEeq5m5AkIydMjQ" name="getProjectRecordOnIndex" method="_7rR3tmkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pK-4WkMEeq5m5AkIydMjQ" name="index">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pK-4mkMEeq5m5AkIydMjQ" isOrdered="true" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7pK-42kMEeq5m5AkIydMjQ" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pNbIGkMEeq5m5AkIydMjQ" name="UpdateProject">
+        <ownedAttribute xmi:id="_7rEcUGkMEeq5m5AkIydMjQ" name="projectChosen" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rEcUmkMEeq5m5AkIydMjQ" name="count" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rFDYWkMEeq5m5AkIydMjQ" name="sc" visibility="package" isStatic="true" type="_7qPV4WkMEeq5m5AkIydMjQ" association="_7rZMcGkMEeq5m5AkIydMjQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rFqcGkMEeq5m5AkIydMjQ" value="new Scanner(System.in)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rFqcmkMEeq5m5AkIydMjQ" name="projectFile" visibility="package" isStatic="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rFqc2kMEeq5m5AkIydMjQ" value="&quot;poised.txt&quot;"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rGRgWkMEeq5m5AkIydMjQ" name="projectReader" visibility="package" isStatic="true" type="_7pAm0GkMEeq5m5AkIydMjQ" association="_7rZzgWkMEeq5m5AkIydMjQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rG4kGkMEeq5m5AkIydMjQ" value="new ReadFile(projectFile)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rHfoGkMEeq5m5AkIydMjQ" name="projectWriter" visibility="package" isStatic="true" type="_7pjZYGkMEeq5m5AkIydMjQ" association="_7rbBoWkMEeq5m5AkIydMjQ">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rIGsGkMEeq5m5AkIydMjQ" value="new WriteFile(projectFile)"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rSewGkMEeq5m5AkIydMjQ" name="getQuestionInput" specification="_7pPQUGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rSewWkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String result = &quot;&quot;;&#xD;
+     System.out.println(&quot;Please enter the Project Number of the project that you wish to update: &quot;);&#xD;
+     result = sc.nextLine();&#xD;
+     return result;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rSewmkMEeq5m5AkIydMjQ" name="updateMenu" specification="_7pRFgGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>System.out.println(&quot;Please choose one of the following:\n1) Change Architect\n2) Change Contractor\n&quot;&#xD;
+             + &quot;3) Change the due date\n4) Update payment\n5) Finalise Project\n6) Return to START MENU\n&quot;);&#xD;
+     Scanner sc = new Scanner(System.in);    //Get user input.&#xD;
+     int userChoice = sc.nextInt();&#xD;
+&#xD;
+     switch (userChoice) {&#xD;
+         case 1:&#xD;
+             architect();&#xD;
+             updateMenu();&#xD;
+             break;&#xD;
+         case 2:&#xD;
+             contractors();&#xD;
+             updateMenu();&#xD;
+             break;&#xD;
+         case 3:&#xD;
+             dateDue();&#xD;
+             updateMenu();&#xD;
+             break;&#xD;
+         case 4:&#xD;
+             amountPaid();&#xD;
+             updateMenu();&#xD;
+             break;&#xD;
+         case 5:&#xD;
+             projectFinalize();&#xD;
+             updateMenu();&#xD;
+             break;&#xD;
+         case 6:&#xD;
+             MainMenu.startMenu();    //Return to the start of the program.&#xD;
+             break;&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rSew2kMEeq5m5AkIydMjQ" name="getPrologueSelectProject" specification="_7pSToGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>projectChosen = getQuestionInput();&#xD;
+     projectReader.fileReadContent();&#xD;
+     projectReader.findProjectFieldsOnProject(projectChosen);&#xD;
+     if (projectReader.getFoundProjectIndex() &lt; 0) {&#xD;
+         System.out.println(&quot;\nYou have entered a non-existing project, please try again\n&quot;);&#xD;
+         MainMenu.startMenu();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTF0GkMEeq5m5AkIydMjQ" name="updateProjectData" specification="_7q1LwGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rTF0WkMEeq5m5AkIydMjQ" name="inputFileContent" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+          <ownedParameter xmi:id="_7rTF0mkMEeq5m5AkIydMjQ" name="mainProject" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+          <language>java</language>
+          <body>int projectIndex = projectReader.getFoundProjectIndex();&#xD;
+     if (projectIndex >= 0) {&#xD;
+         inputFileContent.set(projectIndex, mainProject.toString());&#xD;
+     }&#xD;
+     projectWriter.writeStringListFile(inputFileContent, false);	//Call the file write method and execute.&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTF02kMEeq5m5AkIydMjQ" name="architect" specification="_7pVW8GkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Ask the user, which project do they wish to update.&#xD;
+     getPrologueSelectProject();&#xD;
+     List&lt;String> inputFileContent = projectReader.getFileContent();&#xD;
+     List&lt;String> mainProject = projectReader.getProjectRecord();&#xD;
+&#xD;
+     //Replace the changed fields and update the contents of inputFileContent to the data file&#xD;
+     if ((mainProject != null) &amp;&amp; (mainProject.size() >= 21)) {&#xD;
+         System.out.println(&quot;Please enter the name of the architect:&quot;);&#xD;
+         String arch_name = sc.next();&#xD;
+         mainProject.set(8, arch_name);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the telephone number of the architect:&quot;);&#xD;
+         String arch_tel = sc.next();&#xD;
+         mainProject.set(9, arch_tel);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the email of the architect:&quot;);&#xD;
+         String arch_email = sc.next();&#xD;
+         mainProject.set(10, arch_email);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the address of the architect:&quot;);&#xD;
+         String arch_address = sc.next();&#xD;
+         mainProject.set(11, arch_address);&#xD;
+         sc.nextLine();&#xD;
+         updateProjectData(inputFileContent, mainProject);&#xD;
+     }&#xD;
+     updateMenu();	//Return back to previous menu.&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTF1GkMEeq5m5AkIydMjQ" name="contractors" specification="_7pWlEGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Ask the user, which project do they wish to update.&#xD;
+     getPrologueSelectProject();&#xD;
+     List&lt;String> inputFileContent = projectReader.getFileContent();&#xD;
+     List&lt;String> mainProject = projectReader.getProjectRecord();&#xD;
+     if ((mainProject != null) &amp;&amp; (mainProject.size() >= 21)) {&#xD;
+         System.out.println(&quot;Please enter the name of the contractor:&quot;);&#xD;
+         String cont_name = sc.next();&#xD;
+         mainProject.set(12, cont_name);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the telephone number of the contractor:&quot;);&#xD;
+         String cont_tel = sc.next();&#xD;
+         mainProject.set(13, cont_tel);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the email of the contractor:&quot;);&#xD;
+         String cont_email = sc.next();&#xD;
+         mainProject.set(14, cont_email);&#xD;
+         sc.nextLine();&#xD;
+&#xD;
+         System.out.println(&quot;Please enter the address of the contractor:&quot;);&#xD;
+         String cont_address = sc.next();&#xD;
+         mainProject.set(15, cont_address);&#xD;
+         sc.nextLine();&#xD;
+         updateProjectData(inputFileContent, mainProject);&#xD;
+     }&#xD;
+     updateMenu();	//Return back to previous menu.&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTF1WkMEeq5m5AkIydMjQ" name="dateDue" specification="_7pYaQGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Ask the user, which project do they wish to update.&#xD;
+     getPrologueSelectProject();&#xD;
+     List&lt;String> inputFileContent = projectReader.getFileContent();&#xD;
+     List&lt;String> mainProject = projectReader.getProjectRecord();&#xD;
+     System.out.println(&quot;Please enter the new Due Date:&quot;);&#xD;
+     String due_date = sc.nextLine();&#xD;
+&#xD;
+     mainProject.set(5, due_date);&#xD;
+     System.out.println(mainProject);&#xD;
+     updateProjectData(inputFileContent, mainProject);&#xD;
+     updateMenu();	//Return back to previous menu.&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTF1mkMEeq5m5AkIydMjQ" name="amountPaid" specification="_7pZBUGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Ask the user, which project do they wish to update.&#xD;
+     getPrologueSelectProject();&#xD;
+     List&lt;String> inputFileContent = projectReader.getFileContent();&#xD;
+     List&lt;String> mainProject = projectReader.getProjectRecord();&#xD;
+     System.out.println(&quot;Please enter the total amount of the fee paid to date:&quot;);&#xD;
+     String amount_paid = sc.nextLine();&#xD;
+&#xD;
+     mainProject.set(7, amount_paid);&#xD;
+     System.out.println(mainProject);&#xD;
+     updateProjectData(inputFileContent, mainProject);&#xD;
+     updateMenu();	//Return back to previous menu.&#xD;
+&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rTs4GkMEeq5m5AkIydMjQ" name="projectFinalize" specification="_7paPcGkMEeq5m5AkIydMjQ">
+          <language>java</language>
+          <body>//Ask the user, which project do they wish to update.&#xD;
+     getPrologueSelectProject();&#xD;
+     List&lt;String> inputFileContent = projectReader.getFileContent();&#xD;
+     List&lt;String> mainProject = projectReader.getProjectRecord();&#xD;
+     System.out.println(&quot;Do you wish to mark this project as FINISHED?:&quot;);&#xD;
+     String finished = sc.nextLine();&#xD;
+&#xD;
+     mainProject.set(20, finished);&#xD;
+     System.out.println(mainProject);&#xD;
+     updateProjectData(inputFileContent, mainProject);&#xD;
+     updateMenu();	//Return back to previous menu.&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7pPQUGkMEeq5m5AkIydMjQ" name="getQuestionInput" visibility="private" isStatic="true" method="_7rSewGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7pP3YGkMEeq5m5AkIydMjQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7pRFgGkMEeq5m5AkIydMjQ" name="updateMenu" isStatic="true" method="_7rSewmkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pSToGkMEeq5m5AkIydMjQ" name="getPrologueSelectProject" visibility="private" isStatic="true" method="_7rSew2kMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pVW8GkMEeq5m5AkIydMjQ" name="architect" isStatic="true" method="_7rTF02kMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pWlEGkMEeq5m5AkIydMjQ" name="contractors" isStatic="true" method="_7rTF1GkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pYaQGkMEeq5m5AkIydMjQ" name="dateDue" isStatic="true" method="_7rTF1WkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7pZBUGkMEeq5m5AkIydMjQ" name="amountPaid" isStatic="true" method="_7rTF1mkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7paPcGkMEeq5m5AkIydMjQ" name="projectFinalize" isStatic="true" method="_7rTs4GkMEeq5m5AkIydMjQ" raisedException="_7qM5oGkMEeq5m5AkIydMjQ _7qOu0GkMEeq5m5AkIydMjQ"/>
+        <ownedOperation xmi:id="_7q1LwGkMEeq5m5AkIydMjQ" name="updateProjectData" visibility="private" isStatic="true" method="_7rTF0GkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7q1LwWkMEeq5m5AkIydMjQ" name="inputFileContent" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+          <ownedParameter xmi:id="_7q1y0GkMEeq5m5AkIydMjQ" name="mainProject" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_7pjZYGkMEeq5m5AkIydMjQ" name="WriteFile">
+        <ownedAttribute xmi:id="_7rItwGkMEeq5m5AkIydMjQ" name="fileName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7rJU0WkMEeq5m5AkIydMjQ" name="append" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_7rJU0mkMEeq5m5AkIydMjQ" value="false"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rUT8GkMEeq5m5AkIydMjQ" name="WriteFile" specification="_7pl1oGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rUT8WkMEeq5m5AkIydMjQ" name="outFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7rUT8mkMEeq5m5AkIydMjQ" type="_7pjZYGkMEeq5m5AkIydMjQ" direction="return"/>
+          <language>java</language>
+          <body>fileName = outFile;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_7rUT82kMEeq5m5AkIydMjQ" name="writeStringListFile" specification="_7q7SYGkMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7rUT9GkMEeq5m5AkIydMjQ" name="content" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+          <ownedParameter xmi:id="_7rUT9WkMEeq5m5AkIydMjQ" name="append">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>try {       //Using try/catch we check if the file is available.&#xD;
+         FileWriter fw = new FileWriter(fileName, append);   //Open file for writing.&#xD;
+         BufferedWriter fileWriter = new BufferedWriter(fw);&#xD;
+         for (String item : content) {&#xD;
+             fileWriter.write(item + &quot;\n&quot;); // \n is newline character is needed for separating the text lines&#xD;
+         }&#xD;
+         fileWriter.close();     //Close file writer.&#xD;
+         fw.close();&#xD;
+     } catch (IOException ie) {    //Catch error if need be.&#xD;
+         ie.printStackTrace();&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_7pl1oGkMEeq5m5AkIydMjQ" name="WriteFile" visibility="package" method="_7rUT8GkMEeq5m5AkIydMjQ">
+          <eAnnotations xmi:id="_7pnDwGkMEeq5m5AkIydMjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_7pnDwWkMEeq5m5AkIydMjQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_7pmcsGkMEeq5m5AkIydMjQ" name="outFile">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_7pnDwmkMEeq5m5AkIydMjQ" type="_7pjZYGkMEeq5m5AkIydMjQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_7q7SYGkMEeq5m5AkIydMjQ" name="writeStringListFile" method="_7rUT82kMEeq5m5AkIydMjQ">
+          <ownedParameter xmi:id="_7q7SYWkMEeq5m5AkIydMjQ" name="content" type="_7qdYUGkMEeq5m5AkIydMjQ"/>
+          <ownedParameter xmi:id="_7q7SYmkMEeq5m5AkIydMjQ" name="append">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7rZMcGkMEeq5m5AkIydMjQ" name="" memberEnd="_7rZMcWkMEeq5m5AkIydMjQ _7rFDYWkMEeq5m5AkIydMjQ">
+        <ownedEnd xmi:id="_7rZMcWkMEeq5m5AkIydMjQ" name="" type="_7pNbIGkMEeq5m5AkIydMjQ" association="_7rZMcGkMEeq5m5AkIydMjQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7rZzgWkMEeq5m5AkIydMjQ" name="" memberEnd="_7rZzgmkMEeq5m5AkIydMjQ _7rGRgWkMEeq5m5AkIydMjQ">
+        <ownedEnd xmi:id="_7rZzgmkMEeq5m5AkIydMjQ" name="" type="_7pNbIGkMEeq5m5AkIydMjQ" association="_7rZzgWkMEeq5m5AkIydMjQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7rbBoWkMEeq5m5AkIydMjQ" name="" memberEnd="_7rbBomkMEeq5m5AkIydMjQ _7rHfoGkMEeq5m5AkIydMjQ">
+        <ownedEnd xmi:id="_7rbBomkMEeq5m5AkIydMjQ" name="" type="_7pNbIGkMEeq5m5AkIydMjQ" association="_7rbBoWkMEeq5m5AkIydMjQ"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_7od0QGkMEeq5m5AkIydMjQ">
+      <eAnnotations xmi:id="_7oheoGkMEeq5m5AkIydMjQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:Array xmi:id="_7pE4QGkMEeq5m5AkIydMjQ" base_Element="_7pDqIGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qOHwGkMEeq5m5AkIydMjQ" base_Element="_7qM5oGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qPV4GkMEeq5m5AkIydMjQ" base_Element="_7qOu0GkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qQkAGkMEeq5m5AkIydMjQ" base_Element="_7qPV4WkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qSZMGkMEeq5m5AkIydMjQ" base_Element="_7qRyIGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qUOYGkMEeq5m5AkIydMjQ" base_Element="_7qTAQGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qU1cGkMEeq5m5AkIydMjQ" base_Element="_7qUOYWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qWqoGkMEeq5m5AkIydMjQ" base_Element="_7qU1cWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qYf0GkMEeq5m5AkIydMjQ" base_Element="_7qXRsGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qZG4GkMEeq5m5AkIydMjQ" base_Element="_7qYf0WkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qcxQGkMEeq5m5AkIydMjQ" base_Element="_7qcKMGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qd_YGkMEeq5m5AkIydMjQ" base_Element="_7qdYUGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7qso4GkMEeq5m5AkIydMjQ" base_Element="_7qsB0GkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Generics xmi:id="_7q3oAGkMEeq5m5AkIydMjQ" genericsValue="String" base_Element="_7q1LwWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Generics xmi:id="_7q42IGkMEeq5m5AkIydMjQ" genericsValue="String" base_Element="_7q1y0GkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Generics xmi:id="_7q8ggGkMEeq5m5AkIydMjQ" genericsValue="String" base_Element="_7q7SYWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7q-8wWkMEeq5m5AkIydMjQ" base_Element="_7q-VsGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rAK4GkMEeq5m5AkIydMjQ" base_Element="_7q_j0GkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rCAEGkMEeq5m5AkIydMjQ" base_Element="_7rAx8GkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rCnIWkMEeq5m5AkIydMjQ" base_Element="_7rCAEWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rDOMWkMEeq5m5AkIydMjQ" base_Element="_7rCnImkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rD1QWkMEeq5m5AkIydMjQ" base_Element="_7rD1QGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rEcUWkMEeq5m5AkIydMjQ" base_Element="_7rEcUGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rFDYGkMEeq5m5AkIydMjQ" base_Element="_7rEcUmkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rFqcWkMEeq5m5AkIydMjQ" base_Element="_7rFDYWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rGRgGkMEeq5m5AkIydMjQ" base_Element="_7rFqcmkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rG4kWkMEeq5m5AkIydMjQ" base_Element="_7rGRgWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rIGsWkMEeq5m5AkIydMjQ" base_Element="_7rHfoGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rJU0GkMEeq5m5AkIydMjQ" base_Element="_7rItwGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_7rJ74GkMEeq5m5AkIydMjQ" base_Element="_7rJU0WkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7rZzgGkMEeq5m5AkIydMjQ" base_Element="_7rZMcGkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7rbBoGkMEeq5m5AkIydMjQ" base_Element="_7rZzgWkMEeq5m5AkIydMjQ"/>
+  <UMLLabProfile:Reference xmi:id="_7rbosGkMEeq5m5AkIydMjQ" base_Element="_7rbBoWkMEeq5m5AkIydMjQ"/>
+</xmi:XMI>
